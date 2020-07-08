@@ -14,7 +14,11 @@ module.exports = {
             test: /\.js$/,
             // ... except for the /node_modules folder which is already compiled
             exclude: /node_modules/
-        }]
+        }, {
+            test: /\.s?css$/i,
+            use: ['style-loader', 'css-loader', 'sass-loader'],
+        }
+        ]
     },
     // Source map allows display the line of the original file where an error occurs instead of a line of bundle.js.
     devtool: 'cheap-module-eval-source-map',
