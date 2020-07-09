@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        # Mounts your host directory as the application, for live editing
+        environment:
+            NODE_ENV: development
+        volumes:
+            - .:/app
+        entrypoint: /app/entrypoint.sh
+        ports:
+            - "8080:8080"
+        stdin_open: true
+        tty: true
