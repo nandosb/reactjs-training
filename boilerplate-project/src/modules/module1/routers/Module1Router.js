@@ -9,7 +9,7 @@ const PageNotFound = () => (
 
 const SubPage = () => (
     <div>Module1 SubPage</div>
-)
+);
 
 const Module1Router = ({match}) => (
     <BrowserRouter>

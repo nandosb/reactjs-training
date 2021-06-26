@@ -1,7 +1,13 @@
 import React from 'react';
 
+import CounterComponent from './CounterComponent';
+
 const DashboardComponent = () => (
-    <div>Module1 Dashboard Component</div>
+    <div>
+        <div>Module1 Dashboard Component</div>
+        <CounterComponent/>
+    </div>
+    
 );
 
 export default DashboardComponent;
