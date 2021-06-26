@@ -27,5 +27,7 @@ module.exports = {
         contentBase: path.join(__dirname, 'public'),
         compress: true,
         port: 8080,
+        // historyApiFallback: true makes web server to always return index.html so react can handle routes
+        historyApiFallback: true,
     }
 };
