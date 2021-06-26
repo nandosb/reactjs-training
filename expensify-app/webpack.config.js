@@ -1,8 +1,8 @@
 const path = require('path')
 
 module.exports = {
-    // entry: './src/app.js',
-    entry: './src/playground/nested-functions.js',
+    entry: './src/app.js',
+    // entry: './src/playground/nested-functions.js',
     output: {
         path: path.join(__dirname, 'public'),
         filename: 'bundle.js'

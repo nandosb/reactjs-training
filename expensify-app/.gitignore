@@ -1,5 +1,5 @@
 /node_modules
 /src/playground
-/tmp/logs/*
+/tmp/logs/web*
 yarn.lock
 yarn-error.log
