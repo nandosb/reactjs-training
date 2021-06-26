@@ -1,5 +1,6 @@
 /node_modules
 /src/playground
-/tmp/logs/*
+/tmp/logs/web_server.log
+/tmp/logs/webpack.log
 yarn.lock
 yarn-error.log

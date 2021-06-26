@@ -5,4 +5,9 @@ FROM node:14
 RUN mkdir /app
 COPY entrypoint.sh /app/entrypoint.sh
 WORKDIR /app
+
+EXPOSE 8080
+
 RUN chmod 775 entrypoint.sh
+
+ENTRYPOINT "/app/entrypoint.sh"
