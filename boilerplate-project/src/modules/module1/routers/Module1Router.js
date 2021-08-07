@@ -1,17 +1,17 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React from 'react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import DashboardComponent from '../components/DashboardComponent';
+import DashboardComponent from '../components/DashboardComponent'
 
 const PageNotFound = () => (
     <div>Module1 not found</div>
-);
+)
 
 const SubPage = () => (
     <div>Module1 SubPage</div>
-);
+)
 
-const Module1Router = ({match}) => (
+const Module1Router = ({ match }) => (
     <BrowserRouter>
         <div>
             <Switch>
@@ -21,6 +21,6 @@ const Module1Router = ({match}) => (
             </Switch>
         </div>
     </BrowserRouter>
-);
+)
 
-export default Module1Router;
+export default Module1Router

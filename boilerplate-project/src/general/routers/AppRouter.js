@@ -1,10 +1,10 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React from 'react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import Module1Router from '../../modules/module1/routers/Module1Router';
+import Module1Router from '../../modules/module1/routers/Module1Router'
 
-import DashboardComponent from '../components/DashboardComponent';
-import PageNotFound from '../components/404Component';
+import DashboardComponent from '../components/DashboardComponent'
+import PageNotFound from '../components/404Component'
 
 const AppRouter = () => (
     <BrowserRouter>
@@ -16,6 +16,6 @@ const AppRouter = () => (
             </Switch>
         </div>
     </BrowserRouter>
-);
+)
 
-export default AppRouter;
+export default AppRouter
